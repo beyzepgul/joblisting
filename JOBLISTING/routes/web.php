@@ -1,6 +1,8 @@
 <?php
 
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Models\Joblisting;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +15,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//All Listing
 Route::get('/', function () {
-    return view('welcome');
+    return view('joblisting', [
+        'heading' => 'Lastest Listings',
+        'listings' => Joblisting::all()
+    ]);
+});
+
+//Single Listing
+Route::get('/listing/{id}', function($id) {
+    return view('listing', [
+        'listing' => Joblisting::find($id)
+    ]);
 });
