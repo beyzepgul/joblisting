@@ -29,3 +29,15 @@ Route::get('/listing/{id}', function($id) {
         'listing' => Joblisting::find($id)
     ]);
 });
+
+Route::get('/main', function(){
+    return view('main');
+});
+
+Route::get('/register', function(){
+    return view('register');
+});
+
+Route::get('login', function(){
+    return view('login');
+});
