@@ -212,7 +212,8 @@
                     <i class="fas fa-building"></i>
                     Company Name | 
                     <i class="fas fa-map-marker-alt"></i>
-                    Location</p>
+                    Location
+                </p>
                 <p class="text-gray-800">
                     <i class="fas fa-calendar"></i> 
                     Posted on: [Date]</p>
@@ -232,13 +233,20 @@
                     <i class="fas fa-tags"></i>
                     Categories: [Category1, Category2, ...]</p>
                 <p class="mt-2 pt-2">Description of the job listing goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                
+                <p class="text-gray-600 pt-20">
+                    <i class="fas fa-globe"></i> 
+                    Website | <br>
+                    <i class="fas fa-envelope"></i> 
+                    Contact
+                </p>
                 <!-- Apply Button -->
-                <div class="pt-20">
-                    <button class="bg-[#022B3A] hover:bg-[#034158] text-white p-3 rounded-full">
-                        <i class="fas fa-check-circle"></i> Apply Now
+                <div class="pt-10">
+                    <button class="bg-[#022B3A] hover:bg-[#034158] text-white p-3 rounded-full block">
+                        <i class="fas fa-check"></i> Apply Now
                     </button>
                 </div>
-                    
+
             </section>
 
     </div>
