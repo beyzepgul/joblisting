@@ -23,7 +23,7 @@
 
     <!-- Registration Form Section -->
     <section class="p-4 max-w-md mx-auto mt-8 bg-white rounded-md shadow-md">
-        <h2 class="text-2xl font-bold text-[#022B3A] mb-4">Register</h2>
+        <h2 class="text-2xl font-bold text-[#022B3A] mb-4 text-center">Register</h2>
         <form action="#" method="post" class="space-y-4">
             <!-- Name Input -->
             <div>
@@ -50,13 +50,14 @@
             </div>
 
             <!-- Register Button -->
-            <button type="submit" class="bg-[#022B3A] text-white py-2 px-4 rounded-full hover:bg-[#034158]">
+            <button type="submit" class="bg-[#022B3A] text-white py-2 px-4 rounded-full hover:bg-[#034158] w-full">
                 <i class="fas fa-user-plus"></i> Register
             </button>
+
         </form>
 
         <!-- Login Link -->
-        <p class="mt-4 text-[#4A5568]">Already have an account? <a href="#" class="text-[#022B3A]">Login</a></p>
+        <p class="mt-2 mb-2 text-[#4A5568] text-center">Already have an account? <a href="#" class="text-[#022B3A]">Login</a></p>
     </section>
 
     <!-- Footer Section -->

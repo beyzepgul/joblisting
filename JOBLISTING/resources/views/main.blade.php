@@ -80,7 +80,7 @@
                     <button id="closeModal" class="absolute top-4 right-4 text-[#4A677D] hover:text-[#034158]">
                         <i class="fas fa-times"></i>
                     </button>
-
+                    
                     <!-- Job Category Dropdown -->
                     <div class="mb-4 flex items-center">
                         <label for="jobCategory" class="text-[#4A677D]">Category:</label>

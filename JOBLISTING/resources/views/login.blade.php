@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     @vite('resources/css/app.css')
 </head>
-<body class="bg-gray-100 h-screen">
+<body class="flex flex-col min-h-screen bg-gray-100">
     <!-- Header Section -->
     <header class="bg-[#022B3A] text-white p-4 flex justify-between items-center">
         <div id="logo" class="flex items-center">
@@ -21,8 +21,10 @@
         </nav>
     </header>
 
+    <div class="flex-grow">
+        
     <!-- Login Form Section -->
-    <section class="p-4 mx-auto mt-8 bg-white rounded-md shadow-md w-full max-w-md">
+    <section class=" p-4 mx-auto mt-8 bg-white rounded-md shadow-md w-full max-w-md">
         <h2 class="text-2xl font-bold text-[#022B3A] mb-4 text-center">Login</h2>
         <form action="#" method="post" class="space-y-4">
             <!-- Email Input -->
@@ -47,9 +49,10 @@
         <!-- Register Link -->
         <p class="mt-1 text-[#4A5568] text-center">Don't have an account? <a href="#" class="text-[#022B3A]">Register</a></p>
     </section>
+    </div>
 
     <!-- Footer Section -->
-    <footer class="bg-[#022B3A] text-white p-4 text-center mt-8">
+    <footer class="bg-[#022B3A] text-white p-4 text-center">
         <p>&copy; 2024 Your Job Website. All rights reserved.</p>
     </footer>
 </body>
