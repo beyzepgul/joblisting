@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Search - Your Job Website</title>
+    <title>Home - Your Job Website</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     @vite('resources/css/app.css')
     <!-- Salary Range Slider CSS -->
@@ -47,17 +47,19 @@
             <h1 class="text-lg font-bold">Your Job Website</h1>
         </div>
         <nav class="flex">
-            <a href="#" class="text-white text-sm mr-4"><i class="fas fa-user-plus"></i> Register</a>
-            <a href="#" class="text-white text-sm"><i class="fas fa-sign-in-alt"></i> Login</a>
+            <p class="text-white text-bold mr-5">Welcome User</p>
+            <a href="#" class="text-white text-sm mr-5"><i class="fas fa-list"></i> Manage Listings</a>
+            <a href="#" class="text-white text-sm"><i class="fas fa-door-open"></i> Logout</a>
         </nav>
+        
     </header>
 
     <!-- Banner Section -->
     <section class="bg-[#022B3A] text-white p-4 text-center">
         <img src="banner-image.jpg" alt="Banner Image" class="w-full h-auto mb-4">
-        <h2 class="text-3xl font-bold mb-4">Find or Post Jobs</h2>
-        <button class="bg-[#022B3A] hover:bg-[#034158] text-white font-bold py-2 px-4 rounded-full">
-            <i class="fas fa-user-plus"></i> Sign Up
+        <h2 class="text-3xl font-bold mb-4">Hi User! find jobs or...</h2>
+        <button class="bg-[#034158] hover:bg-white hover:text-[#022B3A] text-white font-bold py-2 px-4 rounded-full">
+            <i class="fa-solid fa-briefcase"></i> Post a Job
         </button>
     </section>
 
